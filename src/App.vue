@@ -1,5 +1,6 @@
 <template>
   <div>
+    <header>aaaaaaa</header>
     <LikeHeader></LikeHeader>
     <LikeNumber></LikeNumber>
   </div>
@@ -17,6 +18,11 @@ export default {
 </script>
 
 <style scoped>
+header {
+  height: 80px;
+  width: 100%;
+  background-color: rgba(0, 119, 255, 0.479);
+}
 div {
   border: 1px solid blue;
 }

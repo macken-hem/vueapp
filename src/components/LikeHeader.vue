@@ -1,5 +1,5 @@
 <template>
-  <h1>{{name}}さん</h1>
+  <h1>{{name}}</h1>
 </template>
 
 <script>

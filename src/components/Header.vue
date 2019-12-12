@@ -29,7 +29,8 @@ div {
 header {
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 119, 255, 0.479);
+  background-color: rgba(48, 187, 241, 0.479);
+  box-shadow:0px 4px rgba(9, 110, 224, 0.082);
 }
 
 .head-ber {

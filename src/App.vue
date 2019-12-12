@@ -20,7 +20,7 @@ export default {
 
 <style scoped>
 header {
-  height: 80px;
+  height: 100%;
   width: 100%;
   background-color: rgba(0, 119, 255, 0.479);
 }

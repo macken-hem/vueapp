@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>いいね({{ number }})</p>
+    <p>カウントアップ({{ number }})</p>
     <button v-on:click="increment">+1</button>
     <a v-bind:href ="url">Github</a>
     <p v-on:mousemove="mousePosition">10000000000</p>
@@ -30,3 +30,11 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+div {
+  width: 100%;
+  height: 100%;
+  background-color: blanchedalmond;
+}
+</style>

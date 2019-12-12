@@ -1,7 +1,8 @@
 <template>
   <div>
-    <header>aaaaaaa</header>
-    <LikeHeader></LikeHeader>
+    <header>
+      <LikeHeader></LikeHeader>
+    </header>
     <LikeNumber></LikeNumber>
   </div>
 </template>

@@ -1,28 +1,22 @@
 <template>
   <div>
-    <header>
-      <LikeHeader></LikeHeader>
-    </header>
+    <Header></Header>
     <LikeNumber></LikeNumber>
   </div>
 </template>
 
 <script>
 import 'normalize.css'
-import LikeHeader from "./components/LikeHeader.vue"
+import Header from "./components/Header.vue"
 
 export default {
   components: {
-    LikeHeader
+    Header
   }
 };
 </script>
 
 <style scoped>
-header {
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 119, 255, 0.479);
-}
+
 
 </style>

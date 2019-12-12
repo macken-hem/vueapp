@@ -1,7 +1,7 @@
 <template>
   <div>
     <p>いいね({{ number }})</p>
-    <button @click="increment">+1</button>
+    <button v-on:click="increment">+1</button>
     <a v-bind:href ="url">Github</a>
   </div>
 </template>

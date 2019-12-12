@@ -24,7 +24,5 @@ header {
   width: 100%;
   background-color: rgba(0, 119, 255, 0.479);
 }
-div {
-  border: 1px solid blue;
-}
+
 </style>
